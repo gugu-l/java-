@@ -1,4 +1,4 @@
-package ¹ËÑ©Î¢µÄ¼Ó¼õ³Ë³ý;
+package ¼Ó¼õ³Ë³ý;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,7 +20,7 @@ public class test {
 	}
 
 	static void printA(HashSet<String> hashSet) throws IOException {		
-		PrintWriter pw = new PrintWriter( new FileWriter( "D:\\¹ËÑ©Î¢.txt" ) );
+		PrintWriter pw = new PrintWriter( new FileWriter( "D:\\gugu.txt" ) );
 		PrintWriter pws = new PrintWriter(new FileWriter("D:\\result.txt"));
 		int sum = 1;
 		int sum1 = 1;
